@@ -123,7 +123,7 @@ seo: true
 index_with_subtitle: true
 
 # Automatically add external URL with BASE64 encrypt & decrypt.
-exturl: false
+exturl: true
 
 
 # ---------------------------------------------------------------
