@@ -47,7 +47,7 @@ cache:
 favicon:
   small: /images/logo-16x16.png
   medium: /images/logo-32x32.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
+  apple_touch_icon: /images/logo-apple.png
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
