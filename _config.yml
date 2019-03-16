@@ -8,6 +8,10 @@
 # Useful if you want to comment some options from NexT `_config.yml` by `next.yml` without editing default config.
 override: false
 
+# chat online with daovoice
+daovoice: true
+daovoice_app_id: 1715882a
+
 # Allow to cache content generation. Introduced in NexT v6.0.0.
 cache:
   enable: true
@@ -141,6 +145,7 @@ menu:
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
+  top: /top/ || signal
   games: /games/ || gamepad
   poems: /poems/ || book
   about: /about/ || user
@@ -160,9 +165,9 @@ menu_settings:
 
 # Schemes
 # scheme: Muse
-scheme: Mist
+# scheme: Mist
 # scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -214,9 +219,9 @@ avatar:
   # in theme directory(source/images): /images/avatar.gif
   # in site  directory(source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: #/images/avatar.gif
+  url: /images/avatar.gif
   # If true, the avatar would be dispalyed in circle.
-  rounded: false
+  rounded: true
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
   opacity: 1
   # If true, the avatar would be rotated with the cursor.
@@ -256,7 +261,7 @@ sidebar:
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
   offset: 12
   # Back to top in sidebar.
-  b2t: false
+  b2t: true
   # Scroll percent label in b2t button.
   scrollpercent: true
   # Enable sidebar on narrow view (only for Muse | Mist).
@@ -310,12 +315,12 @@ symbols_count_time:
 codeblock:
   # Manual define the border radius in codeblock
   # Leave it empty for the default 1
-  border_radius: 
+  border_radius: 0.5
   # Add copy button on codeblock
   copy_button:
-    enable: true
+    enable: false
     # Show text copy result
-    show_result: true
+    show_result: false
 
 # Wechat Subscriber
 #wechat_subscriber:
@@ -379,7 +384,7 @@ custom_logo:
 # Code Highlight theme
 # Available values: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme:  night bright
 
 # Enable "cheers" for archive page.
 cheers_enabled: true
@@ -501,7 +506,7 @@ pdf:
 
 # Han Support
 # Dependencies: https://github.com/theme-next/theme-next-han
-han: false
+han: true
 
 # Pangu Support
 # Dependencies: https://github.com/theme-next/theme-next-pangu
