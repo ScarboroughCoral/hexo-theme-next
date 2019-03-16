@@ -20,14 +20,26 @@ if hexo-config('avatar.rotated') {
     -moz-transition: -moz-transform 1.0s ease-out;
     -ms-transition: -ms-transform 1.0s ease-out;
     transition: transform 1.0s ease-out;
+    -webkit-animation: myRotate 5s linear infinite  ;
+    animation:myRotate 5s linear infinite  ;
   }
 
   .site-author-image:hover {
-    -webkit-transform: rotateZ(360deg);
-    -moz-transform: rotateZ(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotateZ(360deg);
+    animation-play-state:paused;
+    -webkit-animation-play-state:paused;
   }
+  @-webkit-keyframes myRotate{
+    0%{ -webkit-transform: rotate(0deg);}
+    50%{ -webkit-transform: rotate(180deg);}
+    100%{ -webkit-transform: rotate(360deg);}
+  }
+  @keyframes myRotate{
+    0%{ -webkit-transform: rotate(0deg);}
+    50%{ -webkit-transform: rotate(180deg);}
+    100%{ -webkit-transform: rotate(360deg);}
+  }
+
+  
 }
 
 .site-author-name {
