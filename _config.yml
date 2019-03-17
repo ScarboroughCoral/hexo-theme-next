@@ -12,13 +12,6 @@ override: false
 daovoice: true
 daovoice_app_id: 1715882a
 
-# github emoji
-githubEmojis:
-  enable: true
-  className: github-emoji
-  inject: true
-  styles:
-  customEmojis:
 
 # Allow to cache content generation. Introduced in NexT v6.0.0.
 cache:
