@@ -437,8 +437,8 @@ font:
   # Fallback to `global` font settings.
   logo:
     external: true
-    family:
-    size:
+    family: PingFang SC
+    size: 24
 
   # Font settings for <code> and code blocks.
   codes:
