@@ -417,21 +417,21 @@ font:
   # Global font settings used for all elements in <body>.
   global:
     external: true
-    family: ZCOOL XiaoWei
+    family: Noto Sans SC
     size:
 
   # Font settings for Headlines (H1, H2, H3, H4, H5, H6).
   # Fallback to `global` font settings.
   headings:
     external: true
-    family: Noto Sans SC
+    family: ZCOOL XiaoWei
     size:
 
   # Font settings for posts.
   # Fallback to `global` font settings.
   posts:
     external: true
-    family:
+    family: 
 
   # Font settings for Logo.
   # Fallback to `global` font settings.
