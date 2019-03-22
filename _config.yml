@@ -385,7 +385,7 @@ custom_logo:
 # Code Highlight theme
 # Available values: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme:  night bright
+highlight_theme: night blue
 
 # Enable "cheers" for archive page.
 cheers_enabled: true
@@ -404,7 +404,7 @@ cheers_enabled: true
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 # ---------------------------------------------------------------
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
   host:
@@ -417,14 +417,14 @@ font:
   # Global font settings used for all elements in <body>.
   global:
     external: true
-    family: Lato
+    family: ZCOOL XiaoWei
     size:
 
   # Font settings for Headlines (H1, H2, H3, H4, H5, H6).
   # Fallback to `global` font settings.
   headings:
     external: true
-    family:
+    family: Noto Sans SC
     size:
 
   # Font settings for posts.
@@ -437,13 +437,13 @@ font:
   # Fallback to `global` font settings.
   logo:
     external: true
-    family: PingFang SC
+    family: ZCOOL KuaiLe
     size: 24
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
+    family: 
     size:
 
 
