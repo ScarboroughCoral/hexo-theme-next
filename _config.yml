@@ -186,6 +186,7 @@ site_state: true
 social:
   GitHub: https://github.com/ScarboroughCoral || github
   E-Mail: mailto:corallee9797@gmail.com || envelope
+  ZhiHu: https://www.zhihu.com/people/mingyueli || zhihu
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -214,6 +215,8 @@ links_layout: block
 #links_layout: inline
 links:
   CavsZhouyou: http://cavszhouyou.top/
+  DearSummer: https://dearsummer.github.io/
+  XBlame: http://note.xblame.top/
 
 # Sidebar Avatar
 avatar:
@@ -347,7 +350,7 @@ related_posts:
   display_in_home: false
   params:
     maxCount: 5
-    #PPMixingRate: 0.0
+    PPMixingRate: 0.2
     #isDate: false
     #isImage: false
     #isExcerpt: false
@@ -680,7 +683,7 @@ vkontakte_api:
 # To get your ID visit https://widgetpack.com
 rating:
   enable: false
-  id:     #<app_id>
+  id:     17976 #<app_id>
   color:  fc6423
 # ---------------------------------------------------------------
 
