@@ -212,8 +212,8 @@ links_icon: link
 links_title: Links
 links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com
+links:
+  CavsZhouyou: http://cavszhouyou.top/
 
 # Sidebar Avatar
 avatar:
@@ -319,9 +319,9 @@ codeblock:
   border_radius: 0.5
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result
-    show_result: false
+    show_result: true
 
 # Wechat Subscriber
 #wechat_subscriber:
@@ -385,7 +385,7 @@ custom_logo:
 # Code Highlight theme
 # Available values: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night blue
+highlight_theme: normal 
 
 # Enable "cheers" for archive page.
 cheers_enabled: true
@@ -833,12 +833,12 @@ motion:
     # slideUpIn | slideUpOut | slideDownIn | slideDownOut | slideLeftIn | slideLeftOut | slideRightIn | slideRightOut
     # slideUpBigIn | slideUpBigOut | slideDownBigIn | slideDownBigOut | slideLeftBigIn | slideLeftBigOut | slideRightBigIn | slideRightBigOut
     # perspectiveUpIn | perspectiveUpOut | perspectiveDownIn | perspectiveDownOut | perspectiveLeftIn | perspectiveLeftOut | perspectiveRightIn | perspectiveRightOut
-    post_block: fadeIn
-    post_header: slideDownIn
-    post_body: slideDownIn
-    coll_header: slideLeftIn
+    post_block: bounceRightIn
+    post_header: bounceRightIn
+    post_body: bounceRightIn
+    coll_header: bounceRightIn
     # Only for Pisces | Gemini.
-    sidebar: slideUpIn
+    sidebar: bounceLeftIn
 
 # Fancybox. There is support for old version 2 and new version 3.
 # Choose only any one variant, do not need to install both.
