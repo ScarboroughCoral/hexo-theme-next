@@ -147,7 +147,7 @@ menu:
   categories: /categories/ || th
   archives: /archives/ || archive
   top: /top/ || signal
-  games: /games/ || gamepad
+  # games: /games/ || gamepad
   poems: /poems/ || book
   about: /about/ || user
   # schedule: /schedule/ || calendar
@@ -186,7 +186,7 @@ site_state: true
 social:
   GitHub: https://github.com/ScarboroughCoral || github
   E-Mail: mailto:corallee9797@gmail.com || envelope
-  ZhiHu: https://www.zhihu.com/people/mingyueli || zhihu
+  ZhiHu: https://www.zhihu.com/people/mingyueli || 
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -690,9 +690,9 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  appid: zA9RaRyULEttsQUty09L5Msu-gzGzoHsz # your leancloud application appid
+  appkey: Tk82B1uqixrlKgoc33gTlHPX # your leancloud application appkey
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
