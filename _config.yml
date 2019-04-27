@@ -493,7 +493,7 @@ math:
 # PDF Support
 # Dependencies: https://github.com/theme-next/theme-next-pdf
 pdf:
-  enable: false
+  enable: true
 
   # Default(true) will load PDFObject/PDF.js script on demand
   # That is it only render those page who has `pdf: true` in Front Matter.
