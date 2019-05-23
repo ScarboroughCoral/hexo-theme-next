@@ -1,5 +1,5 @@
 .site-author-image {
-  display: block;
+  show();
   margin: 0 auto;
   padding: $site-author-image-padding;
   max-width: $site-author-image-width;
@@ -16,17 +16,18 @@ if hexo-config('avatar.rounded') {
 
 if hexo-config('avatar.rotated') {
   .site-author-image {
-    -webkit-transition: -webkit-transform 1.0s ease-out;
-    -moz-transition: -moz-transform 1.0s ease-out;
-    -ms-transition: -ms-transform 1.0s ease-out;
     transition: transform 1.0s ease-out;
     -webkit-animation: myRotate 5s linear infinite  ;
     animation:myRotate 5s linear infinite  ;
   }
 
   .site-author-image:hover {
+<<<<<<< HEAD
     animation-play-state:paused;
     -webkit-animation-play-state:paused;
+=======
+    transform: rotateZ(360deg);
+>>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
   }
   @-webkit-keyframes myRotate{
     0%{ -webkit-transform: rotate(0deg);}
