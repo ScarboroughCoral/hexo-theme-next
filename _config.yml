@@ -53,14 +53,9 @@ favicon:
 rss: /subscribe
 
 footer:
-<<<<<<< HEAD
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
   since: 2017
-=======
-  # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
 
   # Icon between year and copyright info.
   icon:
@@ -73,13 +68,8 @@ footer:
     color: "#808080"
 
   # If not defined, `author` from Hexo main config will be used.
-<<<<<<< HEAD
   copyright: ScarboroughCoral
   # -------------------------------------------------------------
-=======
-  copyright:
-
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
   powered:
     # Hexo link (Powered by Hexo).
     enable: true
@@ -109,21 +99,15 @@ footer:
 # Valid values of language: deed.zh, deed.fr, deed.de, etc.
 creative_commons:
   license: by-nc-sa
-<<<<<<< HEAD
   sidebar: true
   post: true
-=======
-  sidebar: false
-  post: false
   language:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
-  permalink: https://github.com/yourname
+  enable: true
+  permalink: https://github.com/ScarboroughCoral
   title: Follow me on GitHub
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
-
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -137,13 +121,8 @@ disable_baidu_transformation: false
 # Tips: Before you open this tag, remember set up your URL in hexo _config.yml (e.g. url: http://yourdomain.com)
 canonical: true
 
-<<<<<<< HEAD
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
 seo: true
-=======
-# Change headers hierarchy on site-subtitle (will be main site description) and on all post / page titles for better SEO-optimization.
-seo: false
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
@@ -154,7 +133,7 @@ exturl: true
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters
-#google_site_verification:
+google_site_verification: jlRhuK7wZVHdfNJuSH916WFFhn4xaQ488q8vcHtk3PA
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmaster
@@ -169,7 +148,7 @@ exturl: true
 #baidu_site_verification:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
-baidu_push: false
+baidu_push: true
 
 
 # ---------------------------------------------------------------
@@ -226,14 +205,9 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-<<<<<<< HEAD
   GitHub: https://github.com/ScarboroughCoral || github
   E-Mail: mailto:corallee9797@gmail.com || envelope
   ZhiHu: https://www.zhihu.com/people/mingyueli || 
-=======
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -249,28 +223,15 @@ social_icons:
   icons_only: false
   transition: false
 
-<<<<<<< HEAD
-# Follow me on GitHub banner in right-top corner.
-# Usage: `permalink || title`
-# Value before `||` delimeter is the target permalink.
-# Value after `||` delimeter is the title and aria-label name.
-github_banner: https://github.com/ScarboroughCoral || Follow me on GitHub
-
-=======
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
 # Blog rolls
 links_icon: link
 links_title: Links
 links_layout: block
 #links_layout: inline
 links:
-<<<<<<< HEAD
   CavsZhouyou: http://cavszhouyou.top/
   DearSummer: https://dearsummer.github.io/
   XBlame: http://note.xblame.top/
-=======
-  #Title: http://example.com
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
 
 # Sidebar Avatar
 avatar:
@@ -311,16 +272,11 @@ sidebar:
   #  - post    expand on posts automatically. Default.
   #  - always  expand for all pages automatically.
   #  - hide    expand only when click on the sidebar toggle icon.
-<<<<<<< HEAD
   #  - remove  Totally remove sidebar including sidebar toggle.
   # display: post
   display: always
   #display: hide
   #display: remove
-=======
-  #  - remove  totally remove sidebar including sidebar toggle.
-  display: post
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
 
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
   offset: 12
@@ -332,16 +288,9 @@ sidebar:
 back2top:
   enable: true
   # Back to top in sidebar.
-<<<<<<< HEAD
-  b2t: true
+  sidebar: true
   # Scroll percent label in b2t button.
   scrollpercent: true
-  # Enable sidebar on narrow view (only for Muse | Mist).
-  onmobile: true
-=======
-  sidebar: false
-  # Scroll percent label in b2t button.
-  scrollpercent: false
 
 # A button to open designated chat widget in sidebar.
 # Firstly, you need enable the chat service you want to activate its sidebar button.
@@ -351,7 +300,6 @@ chat:
   #service: tidio
   icon: comment # icon in Font Awesome 4, set false to disable icon
   text: Chat # button text, change it as you wish
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
 
 
 # ---------------------------------------------------------------
@@ -403,25 +351,16 @@ symbols_count_time:
   wpm: 275
 
 codeblock:
-<<<<<<< HEAD
   # Manual define the border radius in codeblock
   # Leave it empty for the default 1
   border_radius: 0.5
-=======
-  # Manual define the border radius in codeblock, leave it blank for the default value: 1
-  border_radius:
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
   # Add copy button on codeblock
   copy_button:
     enable: true
     # Show text copy result
-<<<<<<< HEAD
     show_result: true
-=======
-    show_result: false
     # Style: only 'flat' is currently available, leave it blank if you prefer default theme
-    style:
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
+    style: flat
 
 # Wechat Subscriber
 wechat_subscriber:
@@ -519,13 +458,8 @@ tagcloud:
 font:
   enable: true
 
-<<<<<<< HEAD
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
   host: https://fonts.loli.net
-=======
-  # Uri of fonts host, e.g. //fonts.googleapis.com (Default).
-  host:
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -606,27 +540,6 @@ math:
       copy_tex_js: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.js
       copy_tex_css: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.css
 
-<<<<<<< HEAD
-# PDF Support
-# Dependencies: https://github.com/theme-next/theme-next-pdf
-pdf:
-  enable: true
-
-  # Default(true) will load PDFObject/PDF.js script on demand
-  # That is it only render those page who has `pdf: true` in Front Matter.
-  # If you set it to false, it will load PDFObject/PDF.js srcipt EVERY PAGE.
-  per_page: true
-
-  height: 500px
-
-  pdfobject:
-    # Use 2.1.1 as default, jsdelivr as default CDN, works everywhere even in China
-    cdn: //cdn.jsdelivr.net/npm/pdfobject@2.1.1/pdfobject.min.js
-    # CDNJS, provided by cloudflare, maybe the best CDN, but not works in China
-    #cdn: //cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js
-
-=======
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
 # Han Support
 # Dependencies: https://github.com/theme-next/theme-next-han
 han: false
@@ -668,7 +581,7 @@ quicklink:
 # Bookmark Support
 # Dependencies: https://github.com/theme-next/theme-next-bookmark
 bookmark:
-  enable: false
+  enable: true
   # If auto, save the reading position when closing the page or clicking the bookmark-icon.
   # If manual, only save it by clicking the bookmark-icon.
   save: auto
@@ -676,7 +589,7 @@ bookmark:
 # Reading progress bar
 # Dependencies: https://github.com/theme-next/theme-next-reading-progress
 reading_progress:
-  enable: false
+  enable: true
   color: "#37c6c0"
   height: 2px
 
@@ -794,13 +707,8 @@ gitalk:
 #  type: button
 
 # AddThis Share, See: https://www.addthis.com
-<<<<<<< HEAD
 # Go to https://www.addthis.com/dashboard to customize your tools
 add_this_id: ra-5c627a339c62d4f7
-=======
-# Go to https://www.addthis.com/dashboard to customize your tools.
-#add_this_id:
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
 
 # Likely Share
 # See: https://ilyabirman.net/projects/likely/
@@ -845,20 +753,11 @@ needmoreshare2:
       position: middleRight
       networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
 
-<<<<<<< HEAD
-# Google Webmaster tools verification setting
-# See: https://www.google.com/webmasters
-google_site_verification: jlRhuK7wZVHdfNJuSH916WFFhn4xaQ488q8vcHtk3PA
-
-# Google Analytics
-google_analytics: UA-130668650-1
-=======
 
 # ---------------------------------------------------------------
 # Statistics and Analytics
 # See: https://theme-next.org/docs/third-party-services/statistics-and-analytics
 # ---------------------------------------------------------------
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
 
 # Baidu Analytics ID
 #baidu_analytics:
@@ -868,9 +767,9 @@ google_analytics: UA-130668650-1
 #growingio_analytics: #your projectId
 
 # Google Analytics
-#google_analytics:
-#  tracking_id:
-#  localhost_ignored: true
+google_analytics:
+ tracking_id: UA-130668650-1
+ localhost_ignored: true
 
 # CNZZ count
 #cnzz_siteid:
@@ -954,11 +853,6 @@ busuanzi_count:
 # Tencent MTA ID
 #tencent_mta:
 
-<<<<<<< HEAD
-# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
-baidu_push: true
-=======
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
 
 # ---------------------------------------------------------------
 # Search Services
@@ -980,32 +874,15 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-<<<<<<< HEAD
   enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
-=======
-  enable: false
-  # If auto, trigger search by changing input.
-  # If manual, trigger search by pressing enter key or search button.
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
   trigger: auto
   # Show top n results per article, show all results by setting to -1
   top_n_per_article: 1
   # Unescape html strings to the readable one.
   unescape: false
 
-<<<<<<< HEAD
-# Bookmark Support
-# Dependencies: https://github.com/theme-next/theme-next-bookmark
-bookmark:
-  enable: true
-  # if auto
-  #  - save the reading position when closing the page
-  #  - or clicking the bookmark-icon
-  # if manual, only save it by clicking the bookmark-icon
-  save: auto
-=======
 # Swiftype Search API Key
 #swiftype_key:
 
@@ -1030,7 +907,6 @@ chatra:
 tidio:
   enable: false
   key: # Public Key, get it from Dashboard, See: https://www.tidiochat.com/panel/settings/developer
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
 
 
 # ---------------------------------------------------------------
@@ -1060,27 +936,18 @@ tabs:
     labels: true
   border_radius: 0
 
-<<<<<<< HEAD
-# Reading progress bar
-# Dependencies: https://github.com/theme-next/theme-next-reading-progress
-reading_progress:
-  enable: true
-  color: "#37c6c0"
-  height: 2px
-=======
 # PDF tag, requires two plugins: pdfObject and pdf.js
 # pdfObject will try to load pdf files natively, if failed, pdf.js will be used.
 # The following `cdn` setting is only for pdfObject, because cdn for pdf.js might be blocked by CORS policy.
 # So, you must install the dependency of pdf.js if you want to use pdf tag and make it available to all browsers.
 # See: https://github.com/theme-next/theme-next-pdf
 pdf:
-  enable: false
+  enable: true
   # Default height
   height: 500px
   pdfobject:
     cdn: //cdn.jsdelivr.net/npm/pdfobject@2/pdfobject.min.js
     #cdn: //cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
 
 # Mermaid tag
 mermaid:
@@ -1294,15 +1161,9 @@ vendors:
   # Internal version: 4.0.7
   # See: https://github.com/vinta/pangu.js
   # Example:
-<<<<<<< HEAD
-  # pangu: //cdn.jsdelivr.net/npm/pangu@3/dist/browser/pangu.min.js
-  # pangu: //cdnjs.cloudflare.com/ajax/libs/pangu/3.3.0/pangu.min.js
-  pangu: //cdn.jsdelivr.net/npm/pangu@3.3.0/dist/browser/pangu.min.js
-=======
   # pangu: //cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js
   # pangu: //cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js
-  pangu:
->>>>>>> 0684e940e1f63d80f36f809bf7d4f830087872a3
+  pangu: //cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js
 
   # Internal version: 1.0.0
   # See: https://github.com/GoogleChromeLabs/quicklink
